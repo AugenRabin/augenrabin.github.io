@@ -1,0 +1,53 @@
+* {margin: 0;
+   padding: 0;}
+
+html {background-color: #efefef;}
+
+body {background-color: white;
+      margin: 0 auto;
+      width: 98%%;
+      max-width: 980px;
+      box-shadow: 0 10px 10px rgba(0,0,0,0.3);}
+
+header {text-align: center;
+        vertical-align: middle;
+        line-height: 70px;
+        color: white;
+        background-color: dodgerblue;
+        height: 70px;}
+
+nav {background-color: dodgerblue;}
+
+nav ul {list-style-type: none;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 30px;
+        margin: 0 auto;
+        height: 30px;
+        width: 100%;
+        max-width: 330px;
+        background-color: lightskyblue;}
+
+nav ul li {display: inline;
+           padding: 1.5em;}
+
+nav ul li a {text-decoration: none;
+             color: black;
+             font-weight: bold;}
+
+nav ul li a:hover {text-decoration: underline;}
+
+nav ul li a:visited {text-decoration: none;
+                     color: black;}
+
+nav ul li a.current {text-decoration: underline;}
+
+main {height: 561px;
+      padding: 20px 20px 0px; 20px;}
+
+footer {text-align: center;
+        vertical-align: middle;
+        line-height: 50px;
+        height: 50px;
+        color: white;
+        background-color: dodgerblue;}
