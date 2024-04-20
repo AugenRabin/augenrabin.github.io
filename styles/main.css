@@ -84,3 +84,10 @@ footer {
   text-align: center;
   font-size: 80%;
 }
+
+@media only screen and (max-width: 407px) {
+  nav ul li {
+    display: block;
+    padding: .5em;
+  }
+}
