@@ -74,8 +74,7 @@ article h2 {
   padding-bottom: 0;
 }
 
-article time {
-  display: inline-block;
+article p.date {
   padding-bottom: 20px;
 }
 
