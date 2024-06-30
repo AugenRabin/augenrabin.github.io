@@ -4,26 +4,28 @@
 }
 
 html {
+  /*background-color: #f8f9fa;*/
   background-color: #f8f9fa;
 }
 
 body {
   margin: 0 auto;
   max-width: 50em;
-  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.3);
-  background-color: #ffff;
+  /*box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.3);*/
+  background-color: #f8f9fa;
   color: #444;
+  font-size: 1.15em;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
 }
 
 header {
-  padding: 1em 0 1em 0;
+  padding: 1em 0;
   text-align: center;
 }
 
 nav {
-  padding: .5em 0 .5em 0;
+  padding: .5em 0;
   text-align: center;
   border-top: 2px solid #000000;
   border-bottom: 2px solid #000000;
@@ -33,13 +35,13 @@ nav ul {
   list-style-type: none;
   /*
   Note: try playing around with this in a browser element inspector by turning this styling rule on or off.
-  It seems like this is redundant once you make the list element display as inline!
+  It seems like this rule is redundant once you make the list element display as inline!
   */
 }
 
 nav ul li {
-  margin: 0 1.5em 0 1.5em;
   display: inline;
+  margin: 0 1.5em 0 1.5em;
 }
 
 nav ul li a {
@@ -51,18 +53,21 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
   text-underline-offset: 4px;
+  text-decoration-skip-ink: none;
   text-decoration-thickness: 2px;
 }
 
 nav ul li a:visited {
   text-decoration: none;
   text-underline-offset: 4px;
+  text-decoration-skip-ink: none;
   text-decoration-thickness: 2px;
 }
 
 nav ul li a.current {
   text-decoration: underline;
   text-underline-offset: 4px;
+  text-decoration-skip-ink: none;
   text-decoration-thickness: 2px;
 }
 
@@ -71,7 +76,15 @@ main {
 }
 
 main h1 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+main p:last-child {
+  margin-bottom: 0px;
 }
 
 article {
@@ -88,13 +101,12 @@ article p.date {
 }
 
 footer {
-  clear: both;
-  border-top: 2px solid #000000;
+  /*border-top: 2px solid #000000;*/
   text-align: center;
-  font-size: 80%;
+  font-size: 70%;
 }
 
-@media only screen and (max-width: 407px) {
+@media only screen and (max-width: 450px) {
   nav ul li {
     display: block;
     margin: .1em;
