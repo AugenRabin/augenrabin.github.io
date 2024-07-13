@@ -75,21 +75,12 @@ main {
   padding: 20px;
 }
 
-main h1 {
-  margin-bottom: 5px;
-}
-
 main p {
   margin-bottom: 20px;
 }
 
 main p:last-child {
   margin-bottom: 0px;
-}
-
-main ul {
-  list-style-position: inside;
-  padding-inline-start: 40px;
 }
 
 article {
