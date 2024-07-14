@@ -123,3 +123,15 @@ footer {
     margin: .1em;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  html {background-color: #1f2021;}
+
+  body {background-color: #1f2021; color: #cacaca;}
+
+  nav {border-color: #575757;}
+
+  nav ul li a {color: #ffffff}
+
+  main a {color: #cacaca;}
+}

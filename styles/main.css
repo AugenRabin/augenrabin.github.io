@@ -41,7 +41,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 1.5em 0 1.5em;
+  margin: 0 1.5em;
 }
 
 nav ul li a {
@@ -131,4 +131,20 @@ footer {
     display: block;
     margin: .1em;
   }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {background-color: #1f2021;}
+
+  body {background-color: #1f2021; color: #cacaca;}
+
+  nav {border-color: #575757;}
+
+  nav ul li a {color: #ffffff}
+
+  main a {color: #cacaca;}
+  
+  main article h2 a {color: #cacaca;}
+
+  article {border-color: #575757}
 }
